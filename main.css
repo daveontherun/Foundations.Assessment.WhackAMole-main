@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box; 
+  background: #50a3a2;
+  width: 100vw;
+}
+
+.body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  display: flex;
+}
+h1{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.score{
+  color: red;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 250px;
+  /* width: 100%; */
+  width: 200px;
+  font-size: 72px;
+  border: solid 4px black;
+  
+  /* display: flex;  */
+  /* justify-content: center;
+  align-content: center; */
+}
+
+.startGame{
+  text-align: center;
+}
+
+.startButton{
+  background-color: aquamarine;
+  height: 20px;
+  width: 100px;
+  
+}
+
+ .game{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 700px;
+  margin: 0 auto;
+  /* flex-direction: row wrap; */
+ }
+.hole{
+  overflow: hidden;
+  position: relative;
+}
+
+background-image:url(./images/hole.png) bottom center no-repeat;
+
+.mole{
+  height: 100%;
+  width: 100%;
+  top: 100%;
+  position: absolute;
+  background-size: 50%;
+  background: url(./images/mole.png) bottom center no-repeat;
+}
